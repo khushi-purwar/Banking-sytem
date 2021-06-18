@@ -1,0 +1,116 @@
+
+
+<%- include("../partials/header")%> 
+<%- include("../partials/navbar")%> 
+    
+    
+
+    <!-- home section -->
+
+  <section class="topContent">
+    <div class="mainHeading">
+      <div>
+        <span class="main-content">Basic Banking System</span>
+      </div>
+      <div style="margin-top: 12px;">
+        <span class="sub-content">A Basic Banking System for making transactions between users</span>
+      </div>
+      <a href="#services" class="btn btn-outline-primary mt-3">Get Started</a>
+    </div>
+    <div class="topContentImg">
+      <img src="images/bank_home.png" alt="Banking" width="150" height="500">.
+    
+    </div>
+  </section>
+  <!-- End Home -->
+
+  <!-- About -->
+  <section id="about" class="container">
+    <h2 class="heading">About Us</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 mx-auto">
+          <img class=" mt-3 " style="width:400px;" src="images/about.jpg" alt="TSF Bank">
+        </div>
+        <div class="col-md-6 mx-auto mt-4">
+          <div>
+            <span class="text mt-5">TSF Bank</span>
+          </div>
+          <div class="mt-2">
+            <span class="sub-content">It is a Basic Banking System for making transactions between users.
+              It can transfer Money between multiple accounts,view all Customer's data and view all the past
+              transactions happened between different accounts.</span>
+          </div>
+          <a href="#services" class="btn btn-outline-primary mt-3">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End About -->
+
+  <!-- Services -->
+  <section class="container" id="services">
+    <h2 class="heading">Our Services</h2>
+    <div class="container  text-center">
+      <div class="row">
+        <div class="card col-md-3 mx-auto" style="width: 18rem;">
+          <img src="images/customer.png" class="card-img-top mt-3 img" alt="Responsive image">
+          <div class="card-body">
+            <h5 class="card-title">View Customers</h5>
+            <p class="card-text">View all Customer's data</p>
+            <a href="/users" class="btn btn-primary">View Customers</a>
+          </div>
+        </div>
+       
+        <div class="card col-md-3 mx-auto" style="width: 18rem;">
+          <img src="images/transfer.jpg" class="card-img-top mt-3 img" alt="Responsive image">
+          <div class="card-body">
+            <h5 class="card-title" id="harry">Transfer Money</h5>
+            <p class="card-text"> Transfer Money between multiple accounts</p>
+            <a href="/transaction" class="btn btn-primary">Transfer Money</a>
+          </div>
+        </div>
+        <div class="card col-md-3 mx-auto" style="width: 18rem;">
+          <img src="images/transactions.png" class="card-img-top mt-3 img" alt="Responsive image">
+          <div class="card-body">
+            <h5 class="card-title">View Transactions</h5>
+            <p class="card-text">View all the past transactions </p>
+            <a href="/transactionhistory" class="btn btn-primary">View Transactions</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- End Services -->
+  
+  <!-- Contact -->
+  <section class="mx-auto" id="contact">
+    <h2 class="heading">Contact Us</h2>
+    <form>
+      <div class="row mb-3">
+        <div class="col">
+          <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+        </div>
+      </div>
+      <div class="mb-3">
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+          placeholder="Enter your E-Mail">
+      </div>
+      <div class="mb-3">
+        <input type="text" class="form-control" placeholder="Enter Your City" aria-label="City">
+      </div>
+      <div class="mb-3">
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+          placeholder="Leave your comments here...."></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </section>
+  <!-- End Contact -->
+  
+
+  <%- include("../partials/footer")%> 
