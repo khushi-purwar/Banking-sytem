@@ -1,0 +1,47 @@
+
+<%- include("../partials/header")%> 
+<%- include("../partials/navbar")%> 
+
+<!-- form -->
+
+<form action="/transaction" method="POST" id="form">
+   
+    <div class="container w-50 " style="margin-top: 90px;">
+
+    <h1 class="mb-4 text-center">Transaction</h1>
+         <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">Sender's Name</span>
+           
+            <input type="text" class="form-control" id="sname" name="sen_name" aria-describedby="emailHelp"
+                placeholder="Enter Name of the Sender" required />
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">Sender's Account Number</span>
+           
+            <input type="number" class="form-control" id="s_accountno" name="s_actno" aria-describedby="emailHelp"
+                placeholder="Enter Account Number of the Sender"  required/>
+        </div>
+
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">Receiver's Account Number</span>
+           
+            <!-- <label for="r_accountno" class="form-label">Receiver's Account Number</label> -->
+            <input type="number" class="form-control" id="r_accountno" name="r_actno" aria-describedby="emailHelp"
+                placeholder="Enter Account Number of the Receiver" required />
+        </div>
+
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">Amount ₹ </span>
+            <!-- <label for="amount" class="form-label">Amount</label> -->
+            <input type="number" class="form-control" id="amount" name="amt" placeholder="Enter Amount" required/>
+            <span class="input-group-text">.00</span>
+        </div>
+
+
+        <button class="btn btn-success" id="sendbtn" onclick="sendmoney()">
+            Send Money
+        </button>
+    </div>
+</form>
+
+<%- include("../partials/footer")%> 

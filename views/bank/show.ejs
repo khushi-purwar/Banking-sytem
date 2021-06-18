@@ -1,0 +1,36 @@
+
+<%- include("../partials/header")%> 
+<%- include("../partials/navbar")%> 
+
+  
+    <div class="container" style="margin-top: 112px;">
+      <h1 class="text-center">All Users</h1>
+        <table class="table table-hover mt-5">
+            <thead>
+                <tr class="">
+                  <th scope="col">S.No</th>
+                  <th scope="col">Name</th>
+                  <th scope="col">Email</th>
+                  <!-- <th scope="col">Account Number</th> -->
+                  <!-- <th scope="col">Balance</th> -->
+                  <th scope="col">Action</th>
+                </tr>
+              </thead>
+              <tbody>
+                <%for (let u of users){%> 
+                <tr>
+                    <th scope="row"><%= u.sno %></th>
+                    <td><%= u.name %></td>
+                    <td><%= u.email %></td>
+                    <!-- <td><%= u.actno %></td> -->
+                    <!-- <td><%= u.bal %></td> -->
+                    <td> <a href="/users/<%= u._id %>" class="btn btn-outline-dark">View & Transact</a></td>
+                  </tr>
+                 <% } %> 
+              </tbody>
+          </table>
+    
+    </div>
+
+<%- include("../partials/footer")%> 
+ 

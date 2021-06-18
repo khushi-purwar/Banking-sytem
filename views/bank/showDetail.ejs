@@ -1,0 +1,26 @@
+<%- include("../partials/header")%>
+    <%- include("../partials/navbar")%>
+
+   
+
+        <div class="container " style="margin-top: 70px; width: 500px;">
+            <figure><img src="https://upload.wikimedia.org/wikipedia/commons/7/70/User_icon_BLACK-01.png" alt="" width="130px" style="margin-left: 150px;"/></figure>
+            <ul class="list-group list-group-flush">
+
+                <li class="list-group-item">Name : <%= userDetail.name %>
+                </li>
+                <li class="list-group-item">Email : <%= userDetail.email%>
+                </li>
+                <li class="list-group-item">Account Number : <%= userDetail.actno %>
+                </li>
+                <li class="list-group-item">Balance : <%= userDetail.bal %>
+                </li>
+                <li class="list-group-item mx-auto"><a href="/transaction" class="btn btn-outline-success me-5" id="transfer">Transfer</a><a
+                        href="/users" class="btn btn-primary">Back</a></li>
+            </ul>
+        </div>
+
+        
+
+
+        <%- include("../partials/footer")%>
