@@ -1,0 +1,22 @@
+{
+  "name": "spark-foundation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Khushi Purwar",
+  "license": "ISC",
+  "dependencies": {
+    "alert": "^5.0.10",
+    "connect-flash": "^0.1.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "mongoose": "^5.12.12"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}
