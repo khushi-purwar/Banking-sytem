@@ -1,0 +1,155 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+/* navbar */
+
+.navbar{
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+/* Home */
+ section.topContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 70px;
+    margin-left: 30px;
+    flex-wrap: wrap;
+}
+
+section.topContent .main-content {
+    
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ section.topContent .sub-content {
+    color:black;
+    font-size: 20px;
+}
+ section.title {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+ .sub-title {
+   
+    text-align: center;
+    margin-top: 20px;
+}
+
+section.topContent img {
+    width: 100%;
+}
+
+section.topContent .topContentImg {
+    width: 50%;
+}
+.img{
+    width:100px;
+    margin: auto;
+    margin-top: 20px;
+}
+/* End Home */
+
+/* Heading */
+.heading{
+  
+    font-size: 35px;
+    text-align: center;
+    margin: 40px;
+    padding-top: 40px;  
+    font-family: 'Times New Roman', Times, serif;
+
+}
+/* End Heading */
+
+/* Text */
+.text{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;    
+}
+/* End Text */
+
+/* Card */
+.card{
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05)
+}
+
+.card:hover{
+    box-shadow: 5px 10px whitesmoke;
+    transform: scale(1.1);
+    transition: 0.3s ease;
+}   
+
+/* End Card */
+
+/* Footer */
+
+footer{
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+    text-align: center;
+   font-family: sans-serif; 
+   color: rgb(202, 187, 187);
+   background-color:#f8f9fa!important;
+   margin: 0px;
+   margin-top: 30px;
+   padding-top: 15px;
+}
+
+.text-copy{
+    text-align: center;
+    padding: 25px 0;
+   font-family: sans-serif; 
+   display: flex;
+   justify-content: center;
+   color: rgb(206, 194, 194);
+   background-color: #f8f9fa!important;
+   margin: 0px;   
+}
+
+.social{
+    margin-top: 5px;
+    
+}
+.social a {   
+    display: inline-block;   
+    text-align: center;   
+    padding: 7px;   
+    font-size: 30px;  
+}         
+         
+.facebook {   
+    color: #3b5998;  
+    }         
+.twitter {   
+    color: #00acee;   
+   
+    }   
+.linkedin {   
+    color: #0e76a8;   
+    }          
+.instagram {   
+    color: rgb(255, 77, 231);   
+     }
+
+/* End Footer */
+
+#contact{
+    width: 600px;
+}
+
+@media only screen and (max-width: 600px) {
+    #contact {
+      width: 400px;
+    }
+  }
