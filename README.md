@@ -35,4 +35,4 @@ Home Page > View all Customers > Select and View one Customer > Transfer Money >
 
 ## ScreenShots
 
-<img src="https://github.com/khushi-purwar/Banking-sytem/blob/master/Screenshots/ss1.png" />
+<img src="https://github.com/khushi-purwar/Banking-sytem/blob/master/Screenshots/ss1.png" height="200"/>
