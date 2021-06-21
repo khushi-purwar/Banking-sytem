@@ -37,9 +37,9 @@ Home Page > View all Customers > Select and View one Customer > Transfer Money >
 
  **Home Section**
  
-<img src="https://github.com/khushi-purwar/Banking-sytem/blob/master/Screenshots/ss1.png" height="400" width="700"/>
-<img src="https://github.com/khushi-purwar/Banking-sytem/blob/master/Screenshots/ss2.png" height="400" width="700"/>
-<img src="https://github.com/khushi-purwar/Banking-sytem/blob/master/Screenshots/ss3.png" height="400" width="700"/>
+<img src="https://github.com/khushi-purwar/Banking-sytem/blob/master/Screenshots/ss1.png" />
+<img src="https://github.com/khushi-purwar/Banking-sytem/blob/master/Screenshots/ss2.png" />
+<img src="https://github.com/khushi-purwar/Banking-sytem/blob/master/Screenshots/ss3.png" />
 
  **Customer Table**
  
