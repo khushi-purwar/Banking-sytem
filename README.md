@@ -35,10 +35,16 @@ Home Page > View all Customers > Select and View one Customer > Transfer Money >
 
 ## ScreenShots
 
- Home Section
+ **Home Section**
 <img src="https://github.com/khushi-purwar/Banking-sytem/blob/master/Screenshots/ss1.png" height="400" width="700"/>
 <img src="https://github.com/khushi-purwar/Banking-sytem/blob/master/Screenshots/ss2.png" height="400" width="700"/>
 <img src="https://github.com/khushi-purwar/Banking-sytem/blob/master/Screenshots/ss3.png" height="400" width="700"/>
 
- Customer Table
+ **Customer Table**
 <img src="https://github.com/khushi-purwar/Banking-sytem/blob/master/Screenshots/ss4.png"/>
+
+**Transfer Money**
+<img src="https://github.com/khushi-purwar/Banking-sytem/blob/master/Screenshots/ss6.png"/>
+
+**Transaction History Table**
+<img src="https://github.com/khushi-purwar/Banking-sytem/blob/master/Screenshots/ss7.png"/>
